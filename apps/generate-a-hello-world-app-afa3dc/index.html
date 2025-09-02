@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>generate-a-hello-world-app</title><script src="https://unpkg.com/react@18/umd/react.production.min.js"></script><script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script><script src="https://unpkg.com/@babel/standalone/babel.min.js"></script><script src="https://cdn.tailwindcss.com"></script></head><body><div id="root"></div><script type="text/babel">import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="flex items-center justify-center h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold text-blue-600">Hello, World!</h1>
+    </div>
+  );
+}
+
+export default App;
+
+// App.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;</script></body></html>
